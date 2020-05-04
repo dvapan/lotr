@@ -13,8 +13,8 @@ div.jquery-gdakram-tooltip div.content {
   -moz-border-radius: 1em; 
   -webkit-border-radius: 1em;
   background-color: #671329;
-  position:fixed; top:50%; left:25%;
-  width: 650px;
+  position:fixed; top:30%; left:27%;
+  width: 850px;
   min-height: 50px;
   /* float:  top; */
   padding: 10px;
