@@ -128,8 +128,8 @@ div.block_label {
 }
 
 .elem {
-	width:32px;
-	height:32px;
+	width:64px;
+	height:64px;
 	float:left;
 	margin:3px;
 	overflow:hidden;
@@ -152,6 +152,17 @@ div.block_label {
 
 
 /*** elements ***/
-#game div.elem_GUI { background: transparent url(../images/elements/gui.png) no-repeat; }
-#game div.elem_IBM { background: transparent url(../images/elements/ibm.gif) no-repeat; }
-
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Сэм { background: transparent url(../images/elements/sambase.png) no-repeat; }
+#game div.elem_Голлум { background: transparent url(../images/elements/gollum.png) no-repeat; }
+#game div.elem_Кольцо { background: transparent url(../images/elements/ring.png) no-repeat; }
+#game div.elem_Хоббит { background: transparent url(../images/elements/hobbit.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
