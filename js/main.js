@@ -233,12 +233,11 @@ sth», что означает поклясться на чем-то.`,
 моей опекой – так уж вышло”.</em>`,
         needs: ['Фродо','Смеагол']},
     'Подозрение': {
-        info :`<em>"По мне, что Голлум, что Смеагол - всё одно, не может он сразу
-стать другим"</em><br> Новый Смеагол ещё больше не нравится Саму, чем
-прежний Голлум, так как к Голлуму они относятся как к врагу: всегда
-начеку, ждут от него нападения; а новый Смеагол - вроде друг,
-услужливый проводник, но подозрений вызывает ещё больше. По-настоящему
-доверять Сэм ему не может.`,
+        info :`<em> "По мне, что Голлум, что Смеагол - всё одно, не может он сразу
+стать другим"</em><br> Новый Смеагол ещё больше не нравится Сэму, чем
+прежний Голлум. Смеагол - вроде друг, услужливый проводник, но
+подозрений вызывает ещё больше. По-настоящему доверять Сэм ему не
+может.`,
         needs: ['Сэм','Смеагол']},
     'Этика': {
         info :`<em>"Я должен попасть в Страну Мрака, значит, и путь должен
@@ -272,6 +271,10 @@ sth», что означает поклясться на чем-то.`,
 Съесть их, съесть!"</em>
 `,
         needs: ['Голлум','Куллинария']},
+    'error': {
+        info:`Вероятно, вы пытаетесь объединить несовместимые понятия! Не надо так!`,
+        needs: ['Сэм','Молчание']},
+        
 };
 
 
@@ -291,7 +294,7 @@ var FULL_INVENTORY = [ 'Фродо', 'Сэм', 'Голлум', 'Кольцо',
                        'Прелесть','Клятва/Обещание', 'Предрассудок',
                        'Молчание', 'Шанс', 'Жалость', 'Смеагол',
                        'Идентичность', 'Опека/Принятие/Вытягивание',
-                       'Подозрение', 'Этика', 'Преступление','Мертвечина'];
+                       'Подозрение', 'Этика', 'Преступление','Мертвечина','error'];
 
 var COOKIE = 'elem'; // cookie name
 
@@ -350,23 +353,23 @@ function elem_init_controls() {
 		});	
 	});
        // Open all button
-    	$('#openall').click(function(){
-		if( $("#notify div").is(':visible') )
-			return;
+    	// $('#openall').click(function(){
+	// 	if( $("#notify div").is(':visible') )
+	// 		return;
 	
-		var options = {
-			button: 'Open All'
-		};
+	// 	var options = {
+	// 		button: 'Open All'
+	// 	};
 
-		var box = elem_notify(
-			'Reset the game',
-			'Click "OpenAll" to re-initialize the game with full.',
-			'confirm', options
-		);
-		$('#notify textarea').focus( function(){ $(this).select(); } );
-		$('#notify button').click( function(){ elem_openall_game(); box.close( true ); } );
+	// 	var box = elem_notify(
+	// 		'Reset the game',
+	// 		'Click "OpenAll" to re-initialize the game with full.',
+	// 		'confirm', options
+	// 	);
+	// 	$('#notify textarea').focus( function(){ $(this).select(); } );
+	// 	$('#notify button').click( function(){ elem_openall_game(); box.close( true ); } );
 
-	});
+	// });
 
 	// Reset button
 	$('#reset').click(function(){

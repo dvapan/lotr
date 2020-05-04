@@ -173,4 +173,5 @@ div.block_label {
 #game div.elem_Молчание { background: transparent url(../images/elements/silence.png) no-repeat; }
 #game div.elem_Этика { background: transparent url(../images/elements/etic.png) no-repeat; }
 #game div.elem_Подозрение { background: transparent url(../images/elements/suspicion.png) no-repeat; }
+#game div.elem_error { background: transparent url(../images/elements/error.png) no-repeat; }
 
