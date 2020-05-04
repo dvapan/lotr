@@ -389,7 +389,7 @@ function elem_init_controls() {
 			'confirm', options
 		);
 		$('#notify textarea').focus( function(){ $(this).select(); } );
-		$('#notify button').click( function(){ elem_openall_game(); box.close( true ); } );
+		$('#notify button').click( function(){ elem_reset_game(); box.close( true ); } );
 
 	});
 	
