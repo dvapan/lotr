@@ -157,12 +157,20 @@ div.block_label {
 #game div.elem_Голлум { background: transparent url(../images/elements/gollum.png) no-repeat; }
 #game div.elem_Кольцо { background: transparent url(../images/elements/ring.png) no-repeat; }
 #game div.elem_Хоббит { background: transparent url(../images/elements/hobbit.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
-#game div.elem_Фродо { background: transparent url(../images/elements/frodobase.png) no-repeat; }
+#game div.elem_Куллинария { background: transparent url(../images/elements/cook.png) no-repeat; }
+#game div.elem_Прелесть { background: transparent url(../images/elements/precious.png) no-repeat; }
+#game div.elem_Путь { background: transparent url(../images/elements/path.png) no-repeat; }
+#game div.elem_Предрассудок { background: transparent url(../images/elements/prejudice.png) no-repeat; }
+#game div.elem_Преступление{ background: transparent url(../images/elements/darkmind.png) no-repeat; }
+#game div.elem_Страх { background: transparent url(../images/elements/fear.png) no-repeat; }
+#game div.elem_Идентичность { background: transparent url(../images/elements/identity.png) no-repeat; }
+#game div.elem_Смеагол { background: transparent url(../images/elements/smeagol.png) no-repeat; }
+#game div.elem_Шанс { background: transparent url(../images/elements/chance.png) no-repeat; }
+#game div.elem_Мертвечина { background: transparent url(../images/elements/meat.png) no-repeat; }
+#game div.elem_Жалость { background: transparent url(../images/elements/pity.png) no-repeat; }
+#game div.elem_Клятва\/Обещание { background: transparent url(../images/elements/swear.png) no-repeat; }
+#game div.elem_Опека\/Принятие\/Вытягивание { background: transparent url(../images/elements/custody.png) no-repeat; }
+#game div.elem_Молчание { background: transparent url(../images/elements/silence.png) no-repeat; }
+#game div.elem_Этика { background: transparent url(../images/elements/etic.png) no-repeat; }
+#game div.elem_Подозрение { background: transparent url(../images/elements/suspicion.png) no-repeat; }
+
